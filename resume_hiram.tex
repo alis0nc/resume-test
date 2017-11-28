@@ -1,0 +1,53 @@
+\documentclass[11pt,letterpaper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,letterpaper]{geometry}
+\usepackage{babel}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{Hiram}
+\familyname{McDaniels}
+\title{Five-Headed Dragon}                               % optional, remove/comment the line if not wanted
+\address{The Cave with the Mahogany Chest Full of Treasure Inside}{Night Vale, NM}{USA}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{+1 805 555 1212}         % optional, remove/comment the line if not wanted
+\email{hiram.mcd@nightvale.xyz}                               % optional, remove/comment the line if not wanted
+\homepage{https://hiramformayor.xyz/}              % optional, remove/comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{I'm literally a five headed dragon; who cares?!}                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Experience}
+\subsection{Vocational}
+\cventry{2012--present}{Blogger}{Self-employed}{Night Vale}{}{Criticised the Night Vale mayoralcy and proposed policy changes.}
+\cventry{2009--2012}{Cook}{Dragonbreath Pizza}{Desert Bluffs}{}{Cooked the best pizza ever. Yum!}
+\subsection{Miscellaneous}
+\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines}
+\section{Languages}
+\cvitem{English}{Native}
+\cvitem{Deep Speech}{Fluent}
+\section{Computer skills}
+\cvitem{WordPress}{Lorem ipsum}
+\cvitem{Disqus}{dolor sit amet}
+\cvitem{Google AdSense}{consectetur adipisci}
+
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Cecil Gershwin Palmer}{Endorsed my mayoral candidacy on air}
+  \cvcolumn{Frank Chen}{I did not kill him! He gave me his truck!}
+\end{cvcolumns}
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company's name\\Street address\\Zip Code City}
+\date{Date}
+\opening{Dear Sir or Madam,}
+\closing{Yours faithfully,}
+\enclosure{enclosures}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\makeletterclosing
+\end{document}
